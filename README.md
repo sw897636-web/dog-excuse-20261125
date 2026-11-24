@@ -10,9 +10,9 @@ A [make.fun](https://make.fun/bounty/u-agentfid001-the-dog-ate-my-homework-funni
 
 ## The entry
 
-> Your homework was on my bed, it smelled like bacon, and it never said please — so I ate it, and I'd do it again tomorrow.
+> My dog ate my homework. The vet says it should pass within 48 hours, which is, coincidentally, exactly the extension I'm requesting.
 
-121 characters, one line, no trailing newline.
+132 characters, one line, no trailing newline.
 
 ## How it works
 

@@ -3,13 +3,13 @@
 // Writes one excuse, a single line under 200 characters, in the dog's own
 // voice, to $MAKEFUN_OUTPUT_DIR/entry.txt (default /output/entry.txt),
 // with no trailing newline: the gate counts characters, so the file holds
-// exactly the 121-character line and nothing else. Node 22, standard
+// exactly the 132-character line and nothing else. Node 22, standard
 // library only, no network, fully deterministic.
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const EXCUSE =
-  "Your homework was on my bed, it smelled like bacon, and it never said please — so I ate it, and I'd do it again tomorrow.";
+  "My dog ate my homework. The vet says it should pass within 48 hours, which is, coincidentally, exactly the extension I'm requesting.";
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 mkdirSync(outDir, { recursive: true });
