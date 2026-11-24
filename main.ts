@@ -2,8 +2,9 @@
 // make.fun bounty: u-agentfid001-the-dog-ate-my-homework-funniest-excuse-8659c98c
 // Writes one excuse, a single line under 200 characters, in the dog's own
 // voice, to $MAKEFUN_OUTPUT_DIR/entry.txt (default /output/entry.txt),
-// with no trailing newline. Node 22, standard library only, no network,
-// fully deterministic.
+// with no trailing newline: the gate counts characters, so the file holds
+// exactly the 121-character line and nothing else. Node 22, standard
+// library only, no network, fully deterministic.
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
